@@ -27,4 +27,22 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.scale-animation {
+  animation: scale .7s forwards;
+}
+
+.topo-background {
+  background-image: url("../../public/images/topography.svg");
+}
+
+@keyframes scale {
+  0% {
+    scale: 0.1;
+    transform: translateY(-100px);
+  }
+  100% {
+    scale: 1;
+    transform: translateY(0);
+  }
+}
 
