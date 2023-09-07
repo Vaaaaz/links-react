@@ -3,6 +3,9 @@ import Image from 'next/image';
 import InstagramLogo from '../../public/images/insta.svg'
 import GithubLogo from '../../public/images/github.svg'
 import MirrorLogo from '../../public/images/mirror.svg'
+import SpotifyLogo from '../../public/images/spotify.svg'
+
+
 
 export default function Home() {
   return (
@@ -34,6 +37,14 @@ export default function Home() {
           className="font-bold flex items-center justify-center mb-2 rounded-full bg-[#393E46] text-[#EEEEEE] border-[#00ADB5] border-2 w-72 h-12 mt-2 border-solid transition ease-in-out delay-125 hover:-translate-y-1 hover:scale-110 hover:bg-[#00acb59a] duration-300"
         >
           <Image src={MirrorLogo} alt="Mirror" width={24} height={24} className="mr-2" /><span>Mirror</span>
+        </a>
+        <a
+          href="https://open.spotify.com/user/bs_vaz?si=5b91d520b0c54105"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold flex items-center justify-center mb-2 rounded-full bg-[#393E46] text-[#EEEEEE] border-[#00ADB5] border-2 w-72 h-12 mt-2 border-solid transition ease-in-out delay-125 hover:-translate-y-1 hover:scale-110 hover:bg-[#00acb59a] duration-300"
+        >
+          <Image src={SpotifyLogo} alt="Spotify" width={24} height={24} className="mr-2" /><span>Spotify</span>
         </a>
       </div>
       <div className="flex justify-center mt-8">
